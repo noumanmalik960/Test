@@ -1,4 +1,4 @@
-Since there were no actuall API endpoint for 'login' so I used a fake one
+Since there were no actuall API endpoints for 'login' so I used a fake one
 to authenticate a user and to generate a valid JWT token. I used following two libraries for this:
 1. [json-server](https://www.npmjs.com/package/json-server)
 2. [json-server-auth](https://www.npmjs.com/package/json-server-auth)
