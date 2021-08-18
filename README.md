@@ -5,7 +5,7 @@ to authenticate a user and to generate a valid JWT token. I used following two l
 
 To run the project, follow the following steps
 
- 1. Run ``` npm install ```
+ 1. Run ``` npm install ``` in the root directory as well as in the /server directory
  2. Move to /server directory in the root directory and run the following command to run the Mock server:
    ```
    json-server db.json -m ./node_modules/json-server-auth
