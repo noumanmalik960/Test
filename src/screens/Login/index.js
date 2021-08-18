@@ -7,7 +7,7 @@ import { addJwtToken } from '../../store/jwt.slice'
 
 const Login = () => {
   const [usertype, setUsertype] = React.useState('nonadmin');
-  // Email and Password fields are pre-filled with correct values for convinience
+  // Email and Password fields are pre-filled with correct values for convenience
   const [email, setEmail] = React.useState('test@gmail.com')
   const [password, setPassword] = React.useState('testing123')
 
