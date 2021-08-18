@@ -1,7 +1,7 @@
 import React from 'react'
-import { View, Text, Button, StyleSheet, TextInput, Alert, ActivityIndicator } from 'react-native'
+import { View, Text, Button, StyleSheet, TextInput, Alert } from 'react-native'
 import { Picker } from '@react-native-picker/picker'
-import { useDispatch, useSelector } from 'react-redux'
+import { useDispatch } from 'react-redux'
 import { addJwtToken } from '../../store/jwt.slice'
 
 
