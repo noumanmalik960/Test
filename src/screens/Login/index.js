@@ -10,6 +10,14 @@ const Login = () => {
   // Email and Password fields are pre-filled with correct values for convinience
   const [email, setEmail] = React.useState('test@gmail.com')
   const [password, setPassword] = React.useState('testing123')
+  // temporary error handling
+  const errorList = [
+    "Incorrect password",
+    "Cannot find user",
+    "Email and password are required",
+    "Email format is invalid",
+    "Password is too short"
+  ]
 
   const dispatch = useDispatch()
 
@@ -26,7 +34,7 @@ const Login = () => {
     })
       .then(res => res.json())
       .then(data => {
-        if (data === "Incorrect password" || data === "Cannot find user") {
+        if (errorList.includes(data)) {
           Alert.alert("Email or Password is incorrect!", `Hint:\nEmail => test@gmail.com\nPassword => testing123`)
         }
         else
