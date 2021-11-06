@@ -15,3 +15,5 @@ json-server db.json -m ./node_modules/json-server-auth
 
 3.  Run the project in android emulator
 4.  That's it!
+
+NOTE: This project is only working on android emulator!
